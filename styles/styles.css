@@ -7,4 +7,55 @@
     box-sizing: border-box;
   }
 
-  
+body {
+    font-family: 'Tinos', serif;
+    font-style: italic;
+    color: #433A3A;
+ }
+
+ /* Header & Nav */
+header {
+   position: relative;
+   width: 100%;
+   padding-top: 2.5vw;
+   padding-bottom: 2.5vw;
+   padding-left: 5vw;
+   padding-right: 5vw;
+}
+
+#nav-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+a:link {
+    color: #433A3A;
+    text-decoration: none;
+    padding-bottom: 2px;
+}
+
+a:visited {
+    color: #433A3A;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5a5151;
+    text-decoration: none;
+}
+
+.current-page {
+    border-bottom: 2px solid #433A3A;
+}
